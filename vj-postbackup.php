@@ -4,6 +4,7 @@ Plugin Name: 輔仁網: 作者文章備份
 Description: 我誤判 ‧ 我恐懼
 Version: 1.0
 Author: <a href="http://www.vjmedia.com.hk">技術組</a>
+GitHub Plugin URI: https://github.com/VJMedia/vj-postbackup
 */
 
 function vj_postbackup_addmenu(){
