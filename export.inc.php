@@ -1,6 +1,7 @@
 <?php
-define( 'WXR_VERSION', '1.2' );
+defined('WPINC') || (header("location: /") && die());
 
+define( 'WXR_VERSION', '1.2' );
 
 function export_wp( $args = array() ) {
 	global $wpdb, $post;
@@ -344,3 +345,4 @@ function export_wp( $args = array() ) {
 </rss>
 <?php
 }
+?>

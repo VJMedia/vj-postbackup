@@ -7,6 +7,8 @@ Author: <a href="http://www.vjmedia.com.hk">技術組</a>
 GitHub Plugin URI: https://github.com/VJMedia/vj-postbackup
 */
 
+defined('WPINC') || (header("location: /") && die());
+
 function vj_postbackup_addmenu(){
     	add_menu_page('文章備份', '文章備份', 'read', 'vj-postbackup', 'vj_postbackup_render','dashicons-arrow-down-alt');
 }
